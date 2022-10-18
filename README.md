@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-With this project, you can load in and play any sudoku game. Once the Sudoku is filled with all of the correct numbers, the game will prompt solved! This game was built using Java.
+With this project, you can load in and play any Sudoku game. Once the Sudoku is filled with all of the correct numbers, the game will prompt solved! This game was built using Java.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -37,22 +37,13 @@ With this project, you can load in and play any sudoku game. Once the Sudoku is 
 
 To get a local copy up and running follow these simple example steps.
 
-1. Open up your terminal and make a new directory
-   ```sh
-   mkdir Wordle
-   ```
-3. Clone the repo
-   ```sh
-   git clone https://github.com/jasmineWahr/Wordle.git
-   ```
-3. Compile the code
-   ```sh
-   make
-   ```
-4. Run the game
-   ```js
-   .\main secret_word
-   ```
+1. Copy the files Sudoku.java and SudokuGame.iml on to your local machine.
+
+2. Using an IDE, create a new project using these files. 
+
+3. An example text file (SudokuEasy.txt) is provided in this repository to load in a game. You may use this file or use one of your own. To use one of your own, replace "SudokuEasy.txt" on line 189 in Sudoku.java with the name of your text file. Please make sure to load in the text file into the project.
+
+4. Run the game and have fun!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
